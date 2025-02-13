@@ -1,0 +1,227 @@
+:root {
+  background: #02191D;
+  color: #fff;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.h-05 {
+  height: 5%;
+}
+
+.h-10 {
+  height: 10%;
+}
+
+.h-15 {
+  height: 15%;
+}
+
+.h-20 {
+  height: 20%;
+}
+
+.h-25 {
+  height: 25%;
+}
+
+.h-30 {
+  height: 30%;
+}
+
+.h-40 {
+  height: 40%;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.h-60 {
+  height: 60%;
+}
+
+.h-70 {
+  height: 70%;
+}
+
+.h-80 {
+  height: 80%;
+}
+
+.h-85 {
+  height: 85%;
+}
+
+.h-90 {
+  height: 90%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.ticket-icon {
+  padding: .3em .4em .3em .4em;
+  border-radius: .6em;
+  border: 1.5px solid #0D414A;
+  background: #052F35;
+}
+
+.ticz {
+  color: transparent;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 1px #fff;
+}
+
+.btn-primary {
+  padding: .7em .9em .7em .9em;
+  border-radius: .5em;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all .25s ease;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.btn-primary:hover {
+  opacity: .5;
+}
+
+.btn-primary text {
+  font-size: 1.2em;
+}
+
+
+.header-items input[type="radio"] {
+  appearance: none;
+}
+
+.header-items input[type="radio"] + label {
+  margin-left: 1.5em;
+  opacity: .5;
+  cursor: pointer;
+}
+
+.header-items input[type="radio"] + label:first-child {
+  margin-left: 1em;
+}
+
+.header-items input[type="radio"]:checked + label {
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+  cursor: pointer;
+}
+
+.arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.date-intro {
+  background-image: linear-gradient(to bottom right, #0D3A42, #0d3a42cb, #082328cf, #082328) !important;
+  border-radius: 1em;
+  border-top: unset;
+  border: 1px solid #0E464F;
+  padding: 1em;
+}
+
+.type-set {
+  background: #052228;
+  border-radius: 1em;
+  border-top: unset;
+  border: 1px solid #07373F;
+  padding: .6em;
+}
+
+.type-set .card-type:hover {
+  opacity: .8;
+}
+
+.type-set .card-type-default {
+  background: unset !important;
+}
+
+.type-set .card-type .type-price {
+  padding: .3em .4em .3em .8em;
+  border-radius: .5em;
+  background: #0E464F;
+  border: 1.5px solid #2BA4B9;
+}
+
+.card-type input[type="radio"] {
+  appearance: none;
+  display: none;
+}
+
+.card-type input[type="radio"] + label {
+  width: 100%;
+  display: flex;
+  padding: .4em .5em .4em .5em;
+  border-radius: .7em;
+  border: 1.5px solid #07373F;
+  cursor: pointer;
+}
+
+.card-type input[type="radio"]:checked + label {
+  background: #197686;
+}
+
+.type-select {
+  width: 100%;
+  background: unset;
+  color: #ffffff;
+  padding: .5em .2em .5em .2em;
+  outline: 0;
+  border-radius: .7em;
+  border: 1.5px solid #07373F;
+}
+
+.type-select option {
+  background: #02191D;
+}
+
+.action-btn {
+  border: 1px solid #24A0B5;
+  border-radius: .7em;
+  background: #041E23;
+  color: #24A0B5;
+  cursor: pointer;
+  padding: .8em 5em .8em 5em;
+}
+
+.action-btn:hover {
+  opacity: .7;
+}
+
+.opt-btn {
+  background: #24A0B5;
+  color: #ffffff;
+}
+
+.glow {
+  width: 50em;
+  height: 30em;
+  position: fixed;
+  border-radius: 30em;
+  z-index: -9;
+  bottom: 0;
+  box-shadow: 0 -1em 20em 5em #06333b;
+  transform: translateY(100%);
+}

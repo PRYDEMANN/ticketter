@@ -1,0 +1,133 @@
+#root {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-align {
+  display: flex;
+  align-items: center;
+}
+
+.d-grid-align {
+  display: grid;
+  align-items: center;
+}
+
+.d-grid-align-start {
+  display: grid;
+  align-items: start;
+}
+
+.d-grid-align-end {
+  display: grid;
+  align-items: end;
+}
+
+.d-justify {
+  display: flex;
+  justify-content: center;
+}
+
+.d-grid-justify {
+  display: grid;
+  justify-content: center;
+}
+
+.d-grid-justify-start {
+  display: grid;
+  justify-content: start;
+}
+
+.d-grid-justify-end {
+  display: grid;
+  justify-content: end;
+}
+
+.d-align-start {
+  display: flex;
+  align-items: start;
+}
+
+.d-align-end {
+  display: flex;
+  align-items: end;
+}
+
+.d-justify-start {
+  display: flex;
+  justify-content: start;
+}
+
+.d-grid-justify-start {
+  display: grid;
+  justify-content: start;
+}
+
+.d-grid-justify-end {
+  display: grid;
+  justify-content: end;
+}
+
+.d-justify-end {
+  display: flex;
+  justify-content: end;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+br {
+  user-select: none;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background: #08252B;
+}
